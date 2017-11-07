@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Shy\\AppData\\Local\\Temp\\d-11799-10908-1t67u8o.ohjns46lxr\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Shy\\AppData\\Local\\Temp\\d-11799-10908-1t67u8o.ohjns46lxr\\package.tgz",
+        "spec": "C:\\Users\\Shy\\AppData\\Local\\Temp\\d-11799-10908-1t67u8o.ohjns46lxr\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Shy\\AppData\\Local\\Temp\\apm-install-dir-11799-10908-19i3kwg.5jx3fecdi"
+    ]
+  ],
+  "_from": "..\\d-11799-10908-1t67u8o.ohjns46lxr\\package.tgz",
+  "_id": "vue-format@0.4.0",
+  "_inCache": true,
+  "_location": "/vue-format",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Shy\\AppData\\Local\\Temp\\d-11799-10908-1t67u8o.ohjns46lxr\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Shy\\AppData\\Local\\Temp\\d-11799-10908-1t67u8o.ohjns46lxr\\package.tgz",
+    "spec": "C:\\Users\\Shy\\AppData\\Local\\Temp\\d-11799-10908-1t67u8o.ohjns46lxr\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11799-10908-1t67u8o.ohjns46lxr\\package.tgz",
+  "_shasum": "62838c13938bbbb70e91a7e32feb6f779fac98ba",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Shy\\AppData\\Local\\Temp\\d-11799-10908-1t67u8o.ohjns46lxr\\package.tgz",
+  "_where": "C:\\Users\\Shy\\AppData\\Local\\Temp\\apm-install-dir-11799-10908-19i3kwg.5jx3fecdi",
+  "activationCommands": {
+    "atom-workspace": "vue-format:format"
+  },
+  "author": {
+    "name": "yuqiu",
+    "email": "263352748@qq.com",
+    "url": "https://github.com/LeslieYQ"
+  },
+  "bugs": {
+    "url": "https://github.com/LeslieYQ/vue-format/issues"
+  },
+  "dependencies": {
+    "js-beautify": "~1.5.4"
+  },
+  "description": "Beautify .vue file, not suport stylus,less,scss",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/LeslieYQ/vue-format#readme",
+  "keywords": [
+    "format",
+    "vue.js",
+    "nodejs",
+    "atom",
+    "package",
+    "beautify"
+  ],
+  "license": "MIT",
+  "main": "./lib/vue-format",
+  "name": "vue-format",
+  "optionalDependencies": {},
+  "readme": "#vue-format package (https://github.com/LeslieYQ/vue-format)\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n\n```bash\napm install vue-format\n```\n\nOr Settings/Preferences ➔ Packages ➔ Search for `vue-format`\n\n## Language Support\n\n- [x] Vue, including html, css(not stylus, less, scss) , js (es6)\n\n## Usage\n\nIt will beautify .vue file for html,css and js\n\n### Shortcut\n\nYou can also type `ctrl-alt-v` as a shortcut or click `Packages > vue-format` in the menu.\n\n#### Custom Keyboard Shortcuts\n\nSee [Keymaps In-Depth](https://atom.io/docs/latest/behind-atom-keymaps-in-depth) for more details.\n\nFor example:\n\n```coffeescript\n'.editor':\n  'ctrl-alt-b': 'atom-beautify:beautify-editor'\n```\n\n## Configuration\n\nuse js-beautify default\n\n### Simple\n\nSee [examples/simple-jsbeautifyrc/.jsbeautifyrc](https://github.com/donaldpipowitch/atom-beautify/blob/master/examples/simple-jsbeautifyrc/.jsbeautifyrc).\n\n```json\n{\n  \"indent_size\": 2,\n  \"indent_char\": \" \",\n  \"other\": \" \",\n  \"indent_level\": 0,\n  \"indent_with_tabs\": false,\n  \"preserve_newlines\": true,\n  \"max_preserve_newlines\": 2,\n  \"jslint_happy\": true,\n  \"indent_handlebars\": true\n}\n```\n\n## License\n\n[MIT](https://github.com/LeslieYQ/vue-format/LICENSE.md) © [LeslieYQ yuqiu](https://github.com/LeslieYQ)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeslieYQ/vue-format.git"
+  },
+  "version": "0.4.0"
+}
